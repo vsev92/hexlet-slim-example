@@ -1,0 +1,25 @@
+{
+    "name": "vsev92/hexlet-slim-example",
+    "description": "test project slim framework",
+    "version":"1.0.0", 
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vsev92\\HexletSlimExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vsevolod Petrov",
+            "email": "vsev92@mail.ru"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7",
+        "slim/http": "^1.4",
+        "slim/php-view": "^3.4",
+        "php-di/php-di": "^7.0"
+    }
+}
